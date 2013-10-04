@@ -1,4 +1,5 @@
 box: wercker/ruby
 deploy:
     steps:
-        - heroku-deploy
+        - pjvds/heroku-deploy:
+            key-name: MY-DEPLOY-KEY

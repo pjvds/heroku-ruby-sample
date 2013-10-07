@@ -6,4 +6,5 @@ build:
   - bundle-install 
 deploy:
   steps:
-    - heroku-deploy
+    - heroku-deploy:
+        key-name: DEPLOY_KEY

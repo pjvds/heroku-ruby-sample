@@ -7,4 +7,3 @@ build:
 deploy:
   steps:
     - heroku-deploy:
-        key-name: DEPLOY_KEY
